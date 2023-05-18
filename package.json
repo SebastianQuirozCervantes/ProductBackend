@@ -1,0 +1,37 @@
+{
+  "name": "productbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect index.js --exec babel-node"
+  },
+  "author": "Sebastian Quiroz",
+  "license": "ISC",
+  "dependencies": {
+    "cls-hooked": "^4.2.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.10.4",
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.0.26",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "ejs": "^3.1.5",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.22"
+  }
+}
